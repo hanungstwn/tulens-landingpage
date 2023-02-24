@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Roboto+Condensed&display=swap");
+@import "iconify-icon";
 
 * {
   margin: 0;
@@ -51,15 +52,39 @@ html {
 }
 
 .btn-selengkapnya {
-  width: 150px;
+  width: 180px;
   border-radius: 5px;
   margin-top: 50px;
   color: #b71f3d;
   background-color: #fbecec;
 }
 
+.btn-selengkapnya-hover {
+  color: #91011e;
+  background-color: #fbecec;
+}
+
+.btn-gabung {
+  color: #91011e;
+  width: 230px;
+  height: 50px;
+  border: none;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
 .content {
   margin-top: 10rem;
+}
+
+.a-selengkapnya {
+  color: #91011e;
+  margin-left: 540px;
+}
+
+.tulen {
+  color: #91011e;
 }
 
 header.masthead {
@@ -112,6 +137,25 @@ header.masthead .masthead-heading {
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
 }
 
 .navbar-collapse {
@@ -170,6 +214,7 @@ header.masthead .masthead-heading {
   padding: 30px 0;
   background-color: #f4f4f4;
   color: #a81834;
+  border-radius: 5px;
   text-align: center;
   text-position: absolute;
 }
@@ -177,4 +222,65 @@ header.masthead .masthead-heading {
 .ic-category {
   width: 50px;
   height: auto;
+}
+
+.bg-pengalaman {
+  background-image: url("../assets/Group5.svg");
+  color: #fff;
+}
+
+.box-pengalaman {
+  width: 150px;
+  height: 150px;
+  border: none;
+  background-color: #9a122d;
+}
+
+.navbar-nav-scroll {
+  max-height: var(--bs-scroll-height, 75vh);
+  overflow-y: auto;
+}
+
+.navbar-toggler:hover {
+  text-decoration: none;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#mainNav.navbar-shrink {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
+}
+#mainNav.navbar-shrink .navbar-brand {
+  font-size: 1.25em;
+}
+#mainNav.navbar-shrink .navbar-brand svg,
+#mainNav.navbar-shrink .navbar-brand img {
+  height: 1.5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar-toggler {
+    transition: none;
+  }
 }
