@@ -21,10 +21,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto py-4 py-lg-0 gap-4">
-                    <li class="nav-item"><a class="nav-link fw-bold" href="#about">Tentang Tulen</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold" href="#serbices">Layanan</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold" href="#request">Request Quotation</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold" href="#contact">Hubungi Kami</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold text-light" href="#about">Tentang Tulen</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold text-light" href="#serbices">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold text-light" href="#request">Request Quotation</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold text-light" href="#contact">Hubungi Kami</a></li>
                     <button class="btn btn-danger btnlogin">Login</button>
                 </ul>
             </div>
@@ -205,7 +205,7 @@
                 terbaik. Dengan komitmen kami, kami telah menangani
                 banyak proyek di seluruh Indonesia</p>
             </div>
-            <button class="btn-gabung fw-bold">Bergabung Sekarang</button>
+            <button class="btn btn-light btn-gabung fw-bold">Bergabung Sekarang</button>
           </div>
           <div class="col-4">
             <div class="container">
@@ -255,7 +255,7 @@
     </section>
 
     <!-- Maintenance -->
-    <section class="page-section bg-maintenance" id="maintenance">
+    <section class="page-section bg-maintenance margin-negative" id="maintenance">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -267,7 +267,7 @@
                 instan, namun mengedepankan proses kemitraan yang bersifat
                 jangka panjang dan saling mendukung.</p>
             </div>
-            <button class="btn-selengkapnya fw-light">Lihat Selengkapnya</button>
+            <button class="btn btn-danger btn-selengkapnya fw-light">Lihat Selengkapnya</button>
           </div>
           <div class="col">
             <img src="assets/man1.svg" alt="" class="img-man1">
@@ -312,7 +312,7 @@
               <p>Ketahui lebih lanjut bagaimana Ralali bisa berkontribusi
                 dalam pengembangan bisnis dan usaha Anda.
               </p>
-              <button class="btn-download fw-bold">Download</button>
+              <button class="btn btn-danger btn-download fw-bold">Download</button>
             </div>
           </div>
           <div class="col-6">
@@ -352,7 +352,7 @@
                   <label for="pesan" class="form-label">Pesan Anda <span class="text-danger">*</span></label>
                   <input type="text" class="form-control" id="pesan">
                 </div>
-                <button type="submit" class="btn-kirim fw-bold">Kirim <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill ms-2" viewBox="0 0 16 16">
+                <button type="submit" class="btn btn-danger btn-kirim fw-bold">Kirim <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill ms-2" viewBox="0 0 16 16">
                   <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
                 </svg></button>
               </form>
@@ -362,9 +362,54 @@
       </div>
     </section>
 
-    <!-- Slider Menu Mitra -->
-
     <section class="page-section" id="mitra">
+      <div class="container">
+        <h2 class="section-heading text-center fw-bold">Mitra <span class="tulen">Tulen</span></h2>
+      </div>
+      <div class="container">
+        <div id="slider-container" class="slider">
+          <div class="slide">
+              <img src="assets/MayoraOfficialStore.png.svg" alt="">
+          </div>
+          <div class="slide">
+              <img src="assets/Rose-Brand.png.svg" alt="">
+          </div>
+          <div class="slide">
+              <img src="assets/JAPFABESTJAKARTA.png.svg" alt="">
+          </div>
+          <div class="slide">
+              <img src="assets/Orang-Tua.png.svg" alt="">
+          </div>
+          <div class="slide">
+              <img src="assets/FIX_PERTAMINA.png.svg" alt="">
+          </div>
+          <div class="slide">
+              <img src="assets/MustikaRatu.png.svg" alt="">
+          </div>
+          <div class="slide">
+              <img src="assets/Deli.svg" alt="">
+          </div>
+          <div class="slide">
+              <img src="assets/mitra_nusantara.jpg.svg" alt="">
+          </div>
+          <div onclick="prev()" class="control-prev-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+            </svg>
+          </div>
+          <div onclick="next()" class="control-next-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="overlay">
+        
+      </div>
+</section>
+
+    <!-- <section class="page-section" id="mitra">
       <div class="container">
         <h2 class="section-heading text-center fw-bold">Mitra <span class="tulen">Tulen</span></h2>
       </div>
@@ -396,8 +441,7 @@
             </div>
           </div>
     </div>
-
-    </section>
+    </section> -->
 
     <!-- Last Menu -->
     <section class="page-section bg-proyek" id="proyek">
@@ -545,6 +589,6 @@
     </div>
     <!-- Copyright -->
 
-    <script src="js/scripts.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
