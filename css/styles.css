@@ -124,11 +124,10 @@ html {
   height: 65px;
 }
 
-.btn-playstore {
-  width: 160px;
-  height: 40px;
-  color: #00000;
-  background-image: url("../assets/button.svg");
+.btn-application {
+  background: transparent;
+  border: none;
+  margin: none;
 }
 
 .form-kontak {
@@ -166,20 +165,24 @@ header.masthead {
 
 header.masthead .masthead-subheading {
   font-size: 1rem;
+  font-weight: 200;
   line-height: 1.5rem;
   margin-bottom: 25px;
   width: 55%;
+  font-family: "Poppins", sans-serif;
   /* font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
 }
 header.masthead .masthead-heading {
   font-size: 2.5rem;
+  font-weight: 600;
   margin-top: 5rem;
   margin-bottom: 2rem;
   text-align: left;
   width: 50%;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI";
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI"; */
   /* Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
 }
